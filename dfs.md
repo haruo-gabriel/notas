@@ -92,7 +92,7 @@ bool isBipartiteR(int v, bool* marked, bool* color)
     int w = adj(v)[i];
     if (!marked[w]) {
       color[w] = !color[v]; // todos os vizinhos de v devem ter a cor oposta a de v
-      if (!isBipartiteR(w, marked, color))
+      if (!isBipartiteR(w, marked, color)) // 
         return false;
     }
     else if (color[w] == color[v])
