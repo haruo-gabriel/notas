@@ -63,11 +63,12 @@ int countCC()
   for (int v=0; v<V; v++)
     marked[v] = false;
   int count = 0;
-  for (int v=0; v<V; v++)
+  for (int v=0; v<V; v++) {
     if (!marked[v]) {
       dfsR(v, marked);
       count++;
     }
+  }
   return count;
 }
 ```
