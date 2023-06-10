@@ -37,7 +37,5 @@ Como o algoritmo dfsR(v) é executado exatamente 1 vez para cada vértice v tal 
 
 Proposição: A complexidade é O(V+E).
 
-Prova: Observe que `marked[v] = true` é executado $V$ vezes. Observe que o loop `for (int i=0; i<adj(v).size(); i++)` é executado $2E$ vezes.
-Isto pois, para cada vértice $v$, são atingidos todos os vizinhos de $v$, ou seja, o loop é executado `adj(v).size()` vezes.
-Logo, se para cada vértice o loop é executado `adj(v).size()` vezes, então para todos os vértices o loop é executado $\sum_{v=0}^{V-1} adj(v).size()$ vezes, que é igual a $2E$.
+Prova: Observe que `marked[v] = true` é executado $V$ vezes. Observe que o loop `for (int i=0; i<adj(v).size(); i++)` é executado $2E$ vezes. Isto pois, para cada vértice $v$, são atingidos todos os vizinhos de $v$, ou seja, o loop é executado `adj(v).size()` vezes. Logo, se para cada vértice o loop é executado `adj(v).size()` vezes, então para todos os vértices o loop é executado $\sum_{v=0}^{V-1} adj(v).size()$ vezes, que é igual a $2E$.
 
