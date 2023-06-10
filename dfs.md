@@ -72,3 +72,32 @@ int countCC()
   return count;
 }
 ```
+
+- Determinar se o grafo é bipartido.
+```cpp
+bool isBipartite()
+{
+  bool* marked = new bool[V];
+  for (int v=0; v<V; v++)
+    marked[v] = false;
+  bool* color = new bool[V];
+  for (int v=0; v<V; v++)
+    color[v] = false;
+  return isBipartiteR(0, marked, color);
+}
+bool isBipartiteR(int v, bool* marked, bool* color)
+{
+  marked[v] = true;
+  for (int i=0; i<adj(v).size(); i++) {
+    int w = adj(v)[i];
+    if (!marked[w]) {
+      color[w] = !color[v];
+      if (!isBipartiteR(w, marked, color))
+        return false;
+    }
+    else if (color[w] == color[v])
+      return false;
+  }
+  return true;
+}
+```
