@@ -39,4 +39,5 @@ Proposição: A complexidade é O(V+E).
 
 Prova: Observe que `marked[v] = true` é executado $V$ vezes.
 Observe que o loop `for (int i=0; i<adj(v).size(); i++)` é executado $2E$ vezes.
-Isto pois 
+Isto pois, para cada vértice $v$, são atingidos todos os vizinhos de $v$, ou seja, o loop é executado $adj(v).size()$ vezes.
+
