@@ -1,6 +1,6 @@
 # dfs
 
-Algoritmo de busca em grafos
+A *busca em profundidade* é um algoritmo de busca em grafos.
 
 ## Implementação
 
@@ -39,3 +39,6 @@ Prova: Observe que `marked[v] = true` é executado $V$ vezes. Para cada vértice
 
 Se não está convencido, simule. (obs.: eu simulei e deu certo)
 
+## Aplicações
+
+- Determinar se há caminho entre dois vértices.
