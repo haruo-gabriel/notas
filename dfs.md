@@ -42,3 +42,32 @@ Se não está convencido, simule. (obs.: eu simulei e deu certo)
 ## Aplicações
 
 - Determinar se há caminho entre dois vértices.
+```cpp
+bool hasPathTo(int u, int v)
+{
+  bool* marked
+  return marked = new bool[V];
+  for (int w=0; w<V; w++)
+    marked[w] = false;
+  dfsR(u, marked);
+  return (marked[v]);
+  // se v foi marcado, então o algoritmo foi capaz de chegar em v a partir de u
+}
+```
+
+- Determinar o número de componentes conexas.
+```cpp
+int countCC()
+{
+  bool* marked = new bool[V];
+  for (int v=0; v<V; v++)
+    marked[v] = false;
+  int count = 0;
+  for (int v=0; v<V; v++)
+    if (!marked[v]) {
+      dfsR(v, marked);
+      count++;
+    }
+  return count;
+}
+```
