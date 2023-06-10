@@ -7,10 +7,10 @@ Algoritmo de busca em grafos
 ```cpp
 void dfs()
 {
-  bool* marked = new bool[G.V()];
+  bool* marked = new bool[V];
   for (int i=0; i<V ; i++)
     marked[i] = false;  
-  for (int v=0; v<G.V(); v++)
+  for (int v=0; v<V; v++)
     if (!marked[v])
       dfsR(v);
 }
@@ -37,4 +37,6 @@ Como o algoritmo dfsR(v) é executado exatamente 1 vez para cada vértice v tal 
 
 Proposição: A complexidade é O(V+E).
 
-Prova: Observe que o loop `for (int i=0; i<adj(v).size(); i++)` é executado $V$ vezes.
+Prova: Observe que `marked[v] = true` é executado $V$ vezes.
+Observe que o loop `for (int i=0; i<adj(v).size(); i++)` é executado $2E$ vezes.
+Isto pois 
