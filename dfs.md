@@ -91,7 +91,7 @@ bool isBipartiteR(int v, bool* marked, bool* color)
   for (int i=0; i<adj(v).size(); i++) {
     int w = adj(v)[i];
     if (!marked[w]) {
-      color[w] = !color[v];
+      color[w] = !color[v]; // todos os vizinhos de v devem ter cores diferentes de v
       if (!isBipartiteR(w, marked, color))
         return false;
     }
