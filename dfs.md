@@ -35,4 +35,6 @@ Prova: Observe que o algoritmo `dfsR` é executado pelo menos 1 vez para cada v�
 Como marked[v] = false é setado para true no início da execução do algoritmo `dfsR(v)`, então é executado exatamente 1 vez para cada vértice v tal que `marked[v] = false`.
 Como o algoritmo dfsR(v) é executado exatamente 1 vez para cada vértice v tal que `marked[v] = false`, então o algoritmo dfs é executado exatamente 1 vez para cada vértice.
 
-A complexidade é O(V+E).
+Proposição: A complexidade é O(V+E).
+
+Prova: Observe que o loop `for (int i=0; i<adj(v).size(); i++)` é executado $V$ vezes.
