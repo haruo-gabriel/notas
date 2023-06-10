@@ -29,4 +29,6 @@ void dfsR(int v, bool* marked)
 
 ## Complexidade
 
-O algoritmo dfs 
+O algoritmo dfs é executado exatamente 1 vez para cada vértice.
+
+A complexidade é O(V+E).
