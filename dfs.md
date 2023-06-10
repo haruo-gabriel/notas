@@ -29,6 +29,10 @@ void dfsR(int v, bool* marked)
 
 ## Complexidade
 
-O algoritmo dfs é executado exatamente 1 vez para cada vértice.
+Proposição: O algoritmo 'dfsR' é executado exatamente 1 vez para cada vértice.
+
+Prova: Observe que o algoritmo `dfsR` é executado pelo menos 1 vez para cada vértice v tal que marked[v] = false.
+Como marked[v] = false é setado para true no início da execução do algoritmo 'dfsR(v)', então é executado exatamente 1 vez para cada vértice v tal que 'marked[v] = false'.
+Como o algoritmo dfsR(v) é executado exatamente 1 vez para cada vértice v tal que 'marked[v] = false', então o algoritmo dfs é executado exatamente 1 vez para cada vértice.
 
 A complexidade é O(V+E).
