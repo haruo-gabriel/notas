@@ -18,6 +18,7 @@ void bfs()
   for (int i=0; i<B; i++) marked[i] = false;
   for (int i=0; i<V; i++)
     if (!marked[i]) {
+      marked[i] = true;
       fila.push(i);
       
     }
