@@ -103,3 +103,5 @@ bool isBipartiteR(int v, bool* marked, bool* color)
 ```
 
 Caso não esteja convencido, simule. (obs.: eu simulei e deu certo)
+
+- Determinar se um grafo é acíclico.
