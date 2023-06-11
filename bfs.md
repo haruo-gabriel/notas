@@ -77,7 +77,7 @@ Proposição: O `bfs` visita todos os vértices e arestas exatamente 1 vez.
 
 Proposição: A complexidade do `bfs` é $\mathcal{O}(V+E)$.
 
-*as provas são semelhantes às do [[dfs]]*
+*obs.: as provas são semelhantes às do [[dfs]].*
 
 ## Aplicações
 
