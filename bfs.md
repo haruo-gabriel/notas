@@ -95,8 +95,10 @@ int* caminhoMaisCurto(int v)
     int u = fila.pop();
     for (int i=0; i<adj(u).size(); i++) {
       int w = adj(u).at(i);
-      if (pred[w] = u);
-      fila.push(w);
+      if (pred[w] == -1) {
+        pred[w] = u
+        fila.push(w);
+      }
     }
   }
   return pred;
