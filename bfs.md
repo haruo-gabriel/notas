@@ -81,3 +81,5 @@ Proposição: A complexidade do `bfs` é $\mathcal{O}(V+E)$.
 
 ## Aplicações
 
+- Determinar os caminhos mais curtos de um vértice $s$ para todos os outros.
+ 
