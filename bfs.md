@@ -104,3 +104,6 @@ int* caminhoMaisCurto(int v)
   return pred;
 }
 ```
+Usando o vetor `pred`, conseguimos reconstruir os caminhos.
+Se `pred[i] >= 0`, então o caminho é mínimo.
+Se `pred[i] < 0`, então não existe caminho.
