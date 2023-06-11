@@ -20,7 +20,16 @@ void bfs()
     if (!marked[i]) {
       marked[i] = true;
       fila.push(i);
-      
+      while (!fila.empty()) {
+        int u = fila.pop();
+        for (int j=0; j<adj[u].size(); i++) {
+          w = adj[u].at(i);
+          if (!marked[w]) {
+            fila.push(w);
+            marked[w] = true;
+          }
+        }
+      }
     }
 }
 ```
