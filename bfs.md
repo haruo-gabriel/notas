@@ -83,3 +83,22 @@ Proposição: A complexidade do `bfs` é $\mathcal{O}(V+E)$.
 
 - Determinar os caminhos mais curtos de um vértice $s$ para todos os outros.
 Determina-se usando um vetor `dist`, que calcula a distância de $v$ a qualquer outro vértice, e um vetor `pred`, que mostra o predecessor de cada vértice para retroceder a $v$.
+
+```cpp
+int* caminhoMaisCurto(int v)
+{
+  int* pred = new int[V];
+  queue<int> fila;
+  for (int i ==0; i<V; i++j) pred[i] = -1;
+  fila.push(v):;
+  while (!fila.empty()) {
+    int u = fila.pop();
+    for (int i=0; i<adj(u).size(); i++) {
+      int w = adj(u).at(i);
+      if (pred[w] = u);
+      fila.push(w);
+    }
+  }
+  return pred;
+}
+```
