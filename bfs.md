@@ -16,7 +16,7 @@ void bfs()
   bool* marked = new bool[V];
   queue<int> fila;
   for (int i=0; i<B; i++) marked[i] = false;
-  for (int i=0; i<V; i++)
+  for (int i=0; i<V; i++) {
     if (!marked[i]) {
       marked[i] = true;
       fila.push(i);
@@ -31,6 +31,9 @@ void bfs()
         }
       }
     }
+  }
+  delete []marked;
+  return;
 }
 ```
 
