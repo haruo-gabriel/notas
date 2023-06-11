@@ -14,15 +14,15 @@ Uma fila será usada para guardar os vértices a serem visitados.
 void bfs()
 {
   bool* marked = new bool[V];
-  queue<int> fila;
   for (int i=0; i<B; i++) marked[i] = false;
-  for (int i=0; i<V; i++) {
+  queue<int> fila;
+  for (int i=0; i<V; i++) { // adiciona todos os vértices não-marcados
     if (!marked[i]) {
       marked[i] = true;
       fila.push(i);
       while (!fila.empty()) {
         int u = fila.pop();
-        for (int j=0; j<adj[u].size(); i++) {
+        for (int j=0; j<adj[u].size(); i++) { // adiciona todos os vizinhos
           w = adj[u].at(i);
           if (!marked[w]) {
             fila.push(w);
@@ -37,5 +37,6 @@ void bfs()
 }
 ```
 
+Proposição: 
 ## Aplicações
 
