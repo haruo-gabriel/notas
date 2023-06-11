@@ -2,6 +2,10 @@
 
 A *busca em largura* é um algoritmo de busca em grafos.
 
+## Motivação
+
+O algoritmo bfs 
+
 ## Implementação
 
 ```cpp
