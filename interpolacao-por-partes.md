@@ -1,3 +1,2 @@
 # Interpolação por partes
 
-
