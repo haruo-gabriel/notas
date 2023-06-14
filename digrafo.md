@@ -16,4 +16,3 @@ Um grafo é *fortemente conexo* se para todos os vértices $u,v$ de um grafo, h�
 - Determinar se há caminho de $u$ para $v$ em um digrafo.
 Solução: [[dfs]]
 
-- Determinar 
