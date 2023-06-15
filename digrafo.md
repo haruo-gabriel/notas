@@ -25,7 +25,7 @@ Um arco de arboresência ocorre quando um vértice $u$ cria um arco com um vért
 Um arco de retorno ocorre quando um vértice $u$ cria um arco com um vértice $v$ que ainda não terminou sua recursão em [[dfs]] e está no mesmo caminho de $u$.
 
 - Arco cruzado
-Um arco cruzado ocorre quando um vértice $u$ cria um arco para um vértice $v$ que já terminou sua recursão em [[dfs]] e não está no mesmo caminho de $u$.
+Um arco cruzado ocorre quando um vértice $u$ cria um arco para um vértice $v$ que já terminou sua recursão em [[dfs]] e não está no mesmo caminho de $u$, sendo que o tempo inicial de $u$ é maior que o tempo final de $v$.
 
 - Arco descendente
-Um arco descendente ocorre quando um vértice $u$ cria um arco para um vértice $v$ que já terminou sua recursão em [[dfs]] e não é filho de $u$.
+Um arco descendente ocorre quando um vértice $u$ cria um arco para um vértice $v$ que já terminou sua recursão em [[dfs]], sendo que o tempo inicial de $u$ é menor que o tempo final de $v$.
