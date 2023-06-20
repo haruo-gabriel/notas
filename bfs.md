@@ -90,7 +90,7 @@ int* caminhoMaisCurto(int v)
   int* pred = new int[V];
   queue<int> fila;
   for (int i ==0; i<V; i++j) pred[i] = -1;
-  fila.push(v):;
+  fila.push(v);
   while (!fila.empty()) {
     int u = fila.pop();
     for (int i=0; i<adj(u).size(); i++) {
