@@ -25,3 +25,17 @@ $x_1$ é uma expressão regular. Se uma palavra $p_1$ é reconhecida por $x_1$, 
 - $A \vert (BC \vert D)$ reconhece $A, \; BC, \; D$.
 - $a * (b \vert c) a*$ reconhece $aba, \; b, \; c, \; abaa, \; aaacaaaaa, \; \dots$
 - $b b* (a \vert c)* b b*$ reconhece $bb, \; bbbbacacacbbbbb, \; \dots$
+
+Uma expressão regular sobre um alfabeto $\Sigma$ é:
+- uma palavra vazia $\epsilon$
+- ou um caractere do alfabeto
+- ou uma expressão regular entre parênteses
+- ou uma concatenação de duas expressões regulares
+- ou duas expressões regulares separadas por $\vert$
+- ou uma expressão regular seguida por $*$.
+
+Do ponto de vista semântico, uma expressão regular reconhece uma linguagem, ou seja, um conjunto de palavras sobre o alfabeto $\Sigma$.
+Por exemplo:
+- a expressão regular $\epsilon$ reconhece a linguagem $\set{\epsilon}$.
+- um caracter $a \in \Sigma$ reconhece a linguagem $\set{a}$.
+- 
