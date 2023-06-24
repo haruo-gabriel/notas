@@ -14,12 +14,12 @@ void relaxaArco(int u, int v) {
 
 Relaxar um vértice significa relaxar todos os arcos que saem dele.
 
-**Proposição**: Seja $G$ um digrafo com pesos não negativos. Seja $s$ um vértice de $G$. Seja `dist[]` as estimaticas para distâncias, com `dist[u] = INF` se não há caminho de $s$ a $u$.
+**Proposição**: Seja $G$ um digrafo com pesos não negativos. Seja $s$ um vértice de $G$. Seja `dist[]` as estimaticas para distâncias (ou seja, maior ou igual à distância real), com `dist[u] = INF` se não há caminho de $s$ a $u$.
 `dist[u]` são os comprimentos dos caminhos mínimos de $s$ a $u$ **sse** para todo arco $(u, v)$, temos que `dist[v] <= dist[u] + peso(u, v)`, ou seja, se todos os arcos estão relaxados.
 
 **Prova**: Para provar a ida, suponha que `dist[]` esteja correto e suponha que exista arco `u-v` com `dist[v] > dist[u] + peso(u,v)`. Ora, se existe tal arco que vai de $u$ para $v$ e `dist[v] > dist[u] + peso(u,v)`, então `dist[v]` não é o comprimento de um caminho mínimo de $u$ a $v$. É um absurdo.
 Para provar a volta, suponha que $v$ seja atingível a partir de $s$ e que
-$s = v_0, v_1, v_2, \dots, v_k = v$  seja caminho mínimo. Então 
+$s = v_0, v_1, v_2, \dots, v_k = v$  seja caminho mínimo. Como todos os arcos estão relaxados por hipótese, então 
 ```
 dist[v] = dist[vk] <= dist[vk-1] + peso(vk-1,vk)
           dist[vk-1] <= dist[vk-2] + peso(vk-2,vk-1)
