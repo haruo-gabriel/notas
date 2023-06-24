@@ -10,7 +10,7 @@ Qual o maior prefixo do padrão que encaixa no sufixo do texto analisado?
 
 ```cpp
 int busca (char* texto, char* padrao) {
-  int m = strlen(padra0);
+  int m = strlen(padrao);
   int n = strlen(texto);
   // constroi matriz dfa[][]
   int i, j;
@@ -22,6 +22,8 @@ int busca (char* texto, char* padrao) {
   }
 }
 ```
+
+A complexidade da `busca()` é proporcional a $\mathcal{O}(n)$, o tamanho do texto.
 
 A matriz `dfa` representa um autômato finito determinístico.
 
@@ -40,3 +42,5 @@ void constroi(int** dfa, char* padrao, int alf) {
   }
 }
 ```
+
+A complexidade de `constroi()` é proporcional a $O(\text{tamanho do padrao} \cdot \text{tamanho do alfabeto})$.
