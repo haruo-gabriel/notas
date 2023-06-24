@@ -22,3 +22,6 @@ int busca (char* texto, char* padrao) {
   }
 }
 ```
+
+A matriz `dfa` representa um autômato finito determinístico.
+
