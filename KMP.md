@@ -11,10 +11,12 @@ int busca (char* texto, char* padrao) {
   int m = strlen(padra0);
   int n = strlen(texto);
   // constroi matriz dfa[][]
+  int i, j;
   for (i=0,j=0 ; i<n && j<m ; i++) {
     j = dfa[text[i]][j];
     if (j == m)
-      return
+      return (i-m);
+    return n;
   }
 }
 ```
