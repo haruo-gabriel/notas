@@ -43,4 +43,4 @@ void constroi(int** dfa, char* padrao, int alf) {
 }
 ```
 
-A complexidade de `constroi()` é proporcional a $O(\text{tamanho do padrao} \cdot \text{tamanho do alfabeto})$.
+A complexidade de `constroi()` é linear e proporcional a $O(\text{tamanho do padrao} \cdot \text{tamanho do alfabeto})$.
