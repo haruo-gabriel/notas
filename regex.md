@@ -95,4 +95,5 @@ Será que toda linguagem pode ser reconhecida por uma expressão regular?
 Não!
 
 ## Teorema de Kleene
+
 As linguagens reconhecidas por expressões regulares são reconhecidas por autômatos finitos não-determinísticos.
