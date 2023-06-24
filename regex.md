@@ -92,4 +92,7 @@ Exemplo: $[\land a e i o u]$ reconhece qualquer caractere que *não* seja uma vo
 `(0|1)*0`
 
 Será que toda linguagem pode ser reconhecida por uma expressão regular?
-Não! 
+Não!
+
+## Teorema de Kleene
+As linguagens reconhecidas por expressões regulares são reconhecidas por autômatos finitos não-determinísticos.
