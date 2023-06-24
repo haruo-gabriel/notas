@@ -28,10 +28,16 @@ A matriz `dfa` representa um autômato finito determinístico.
 ```cpp
 void constroi(int** dfa, char* padrao, int alf) {
   int c, x, j;
-  for (c=0; c <alf; c++)
+  // inicializando dfa
+  for (c=0; c<alf; c++)
     dfa[c][0] = 0;
-  dfa[padra[o]][0] = 1;
+  dfa[padrao[0]][0] = 1;
   x = 0;
-  for (j=1; j<>)
+  for (j=1; j<strlen(padrao), j++) {
+    for (c=0; c<alf; c++>) // faz a cópia da coluna que x aponta
+      dfa[c][j] = dfa[c][x];
+    dfa[padrao[j]][j] = j+1; // ajusta o que acontece se ocorre a letra certa
+    x = dfa[padrao[j]][x];
+  }
 }
 ```
