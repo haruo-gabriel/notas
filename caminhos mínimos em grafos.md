@@ -28,4 +28,4 @@ dist[v] = dist[vk] <= dist[vk-1] + peso(vk-1,vk)
           dist[v0] = dist[u]
 ```
 Somando todas as inequações, temos que 
-`dist[v] <= dist[u]] + peso(u,v0) + ... + peso(vk-1,vk)`, que é igual ao comprimento mínimo.
+`dist[v] <= dist[u] + peso(u,v0) + ... + peso(vk-1,vk)`. Como `dist[u]` é 0, então temos que `dist[v] <= peso(u,v0) + ... + peso(vk-1,vk)`, que é igual ao comprimento mínimo, como queríamos.
