@@ -86,4 +86,10 @@ Exemplo: $[\land a e i o u]$ reconhece qualquer caractere que *não* seja uma vo
 ## Exemplos
 
 - Verifica se uma string é um email válido no Brasil:
-$ [0-Z]@[0-Z].br$
+`([A-z]|[0-9]|\.)+@([A-z]|[0-9])+\.br`
+
+- Verifica números binários pares
+`(0|1)*0`
+
+Será que toda linguagem pode ser reconhecida por uma expressão regular?
+Não! 
