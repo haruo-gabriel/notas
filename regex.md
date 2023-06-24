@@ -86,4 +86,4 @@ Exemplo: $[\land a e i o u]$ reconhece qualquer caractere que *não* seja uma vo
 ## Exemplos
 
 - Verifica se uma string é um email válido no Brasil:
-$$
+$ [0-Z]@[0-Z].br$
