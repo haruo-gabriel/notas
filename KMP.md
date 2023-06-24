@@ -36,7 +36,7 @@ void constroi(int** dfa, char* padrao, int alf) {
     for (c=0; c<alf; c++>) // faz a cópia da coluna que x aponta
       dfa[c][j] = dfa[c][x];
     dfa[padrao[j]][j] = j+1; // ajusta o que acontece se ocorre a letra certa
-    x = dfa[padrao[j]][x];
+    x = dfa[padrao[j]][x]; // x anda para a coluna certa
   }
 }
 ```
