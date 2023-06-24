@@ -43,3 +43,44 @@ Por exemplo:
 - se temos duas expressões regulares $e_1$ e $e_2$ que reconhecem respectivamente as linguagens $\mathcal{L}_1$ e $\mathcal{L}_2$, então $e_1 \vert e_2$ reconhece $\mathcal{L} = \mathcal{L}_1 \cup \mathcal{L}_2$.
 - se temos $e_1$ que reconhece $\mathcal{L}_1$, a expressão $e_1 *$ reconhece $\mathcal{L} = \set{p_1 p_2 \dots p_k \; \vert \; k \geq 0 \text{ e } p_i \in \mathcal{L}_1}$.
 
+## Abreviaturas
+
+Existem algumas abreviaturas para expressões regulares:
+
+### +
+
+É um fecho com pelo menos 1 ocorrência.
+Exemplo: $a+$ reconhece $a, \; aa, \; aaa, \; \dots$
+
+### .
+
+É o coringa, que reconhece qualquer caractere do alfabeto.
+Exemplo: $a.b$ reconhece $aab, \; abb, \; acb, \; \dots$
+
+### ?
+
+É um zero ou uma cópia.
+Exemplo: $ba?b$ reconhece $bb, \; bab$.
+
+### {k}
+
+É uma concatenação de $k$ cópias.
+Exemplo: $a\set{3}b$ reconhece $aaab$.
+
+### [ ]
+
+É um conjunto.
+Exemplo: $[a e i o u]$ reconhece $a, \; e, \; i, \; o, \; u$, ou seja, apenas vogais.
+
+### [ - ]
+
+É um intervalo.
+Exemplo: $[a-z]$ reconhece qualquer letra minúscula.
+Exemplo: $[0-9]$ reconhece qualquer algarismo.
+
+### [ ^ ]
+
+É o complemento de um conjunto.
+Exemplo: $[\land a e i o u]$ reconhece qualquer caractere que *não* seja uma vogal.
+
+
