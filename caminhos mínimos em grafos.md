@@ -13,3 +13,7 @@ void relaxaArco(int u, int v) {
 ```
 
 Relaxar um vértice significa relaxar todos os arcos que saem dele.
+
+**Proposição**: Seja $G$ um digrafo com pesos não negativos.
+Seja $s$ um vértice de $G$.
+Seja `dist[]` as estimaticas para distâncias, com `dist[u] = INF` se não há caminho de $s$ a $u$.
