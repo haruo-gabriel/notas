@@ -25,3 +25,8 @@ int busca (char* texto, char* padrao) {
 
 A matriz `dfa` representa um autômato finito determinístico.
 
+```cpp
+void constroi(int** dfa, char* padrao, int alf) {
+  
+}
+```
