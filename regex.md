@@ -83,4 +83,7 @@ Exemplo: $[0-9]$ reconhece qualquer algarismo.
 É o complemento de um conjunto.
 Exemplo: $[\land a e i o u]$ reconhece qualquer caractere que *não* seja uma vogal.
 
+## Exemplos
 
+- Verifica se uma string é um email válido no Brasil:
+$$
