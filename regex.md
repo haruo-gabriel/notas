@@ -38,4 +38,8 @@ Do ponto de vista semântico, uma expressão regular reconhece uma linguagem, ou
 Por exemplo:
 - a expressão regular $\epsilon$ reconhece a linguagem $\set{\epsilon}$.
 - um caracter $a \in \Sigma$ reconhece a linguagem $\set{a}$.
-- 
+- uma expressão regular entre parênteses reconhece a mesma linguagem.
+- se temos duas expressões regulares $e_1$ e $e_2$ que reconhecem respectivamente as linguagens $\mathcal{L}_1$ e $\mathcal{L}_2$, então a concatenação $e_1 e_2$ reconhece a linguagem $\mathcal{L} = \set{p_1 p_2 \; \vert \; p_1 \in \mathcal{L}_1 \text{ e } p_2 \in \mathcal{L}_2}$.
+- se temos duas expressões regulares $e_1$ e $e_2$ que reconhecem respectivamente as linguagens $\mathcal{L}_1$ e $\mathcal{L}_2$, então $e_1 \vert e_2$ reconhece $\mathcal{L} = \mathcal{L}_1 \cup \mathcal{L}_2$.
+- se temos $e_1$ que reconhece $\mathcal{L}_1$, a expressão $e_1 *$ reconhece $\mathcal{L} = \set{p_1 p_2 \dots p_k \; \vert \; k \geq 0 \text{ e } p_i \in \mathcal{L}_1}$.
+
