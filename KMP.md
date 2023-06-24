@@ -27,6 +27,11 @@ A matriz `dfa` representa um autômato finito determinístico.
 
 ```cpp
 void constroi(int** dfa, char* padrao, int alf) {
-  
+  int c, x, j;
+  for (c=0; c <alf; c++)
+    dfa[c][0] = 0;
+  dfa[padra[o]][0] = 1;
+  x = 0;
+  for (j=1; j<>)
 }
 ```
