@@ -2,6 +2,8 @@
 
 Knuth, Morris & Pratt
 
+O KMP é um algoritmo de busca de padrões em textos.
+
 Qual o maior prefixo do padrão que encaixa no sufixo do texto analisado?
 
 ## Algoritmo
