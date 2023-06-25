@@ -105,3 +105,5 @@ Um autômato finito não-determinístico possui:
 - transições que leem caracteres
 - transições sem ler nenhum caractere
 
+As lambda-transiç~eos podem ser feitas sem ler caractere.
+Dizemos que uma palavra é aceita se existe um caminho no NFA (autômato finito não-determinístico) que leva a um estado de aceitação.
