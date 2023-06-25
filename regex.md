@@ -97,3 +97,6 @@ Não!
 ## Teorema de Kleene
 
 As linguagens reconhecidas por expressões regulares são reconhecidas por autômatos finitos não-determinísticos.
+
+## Autômatos finitos não-determinísticos
+
