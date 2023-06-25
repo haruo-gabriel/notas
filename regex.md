@@ -100,3 +100,8 @@ As linguagens reconhecidas por expressões regulares são reconhecidas por autô
 
 ## Autômatos finitos não-determinísticos
 
+Um autômato finito não-determinístico possui:
+- 1 estado para cada caractere da expressão regular
+- transições que leem caracteres
+- transições sem ler nenhum caractere
+
