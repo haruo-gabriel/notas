@@ -20,8 +20,15 @@ Modelo P2P
 ## Tipo de serviço
 
 Serviço orientado a conexão (TCP)
-- Os dados chegam em ordem
-- Os dados chegam por completo
-- OS daddos não são modificados
+1. Os dados chegam em ordem
+2. Os dados chegam por completo
+3. OS daddos não são modificados
+4. Controle de fluxo
+5. COntrole de congestionamento
+
+1., 2., 3. são os principais. 4. e 5. são adicionais.
+
+- RFC793
+  - Transferência de dados confiável e sequencial orientada à cadeia de bytes.
 
 Serviço sem conexão ()
