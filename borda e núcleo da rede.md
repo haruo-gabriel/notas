@@ -19,9 +19,9 @@ Modelo P2P
 
 ## Tipo de serviço
 
-Serviço orientado a conexão
+Serviço orientado a conexão (TCP)
 - Os dados chegam em ordem
 - Os dados chegam por completo
 - OS daddos não são modificados
 
-Serviço sem conexão
+Serviço sem conexão ()
