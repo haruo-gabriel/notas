@@ -17,7 +17,7 @@ Modelo P2P
 - Cliente e servidor se confundem.
 - Ex.: torrent
 
-## Tipos de serviço
+## Tipo de serviço
 
 Serviço orientado a conexão
 - Os dados chegam em ordem
