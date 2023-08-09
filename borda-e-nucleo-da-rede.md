@@ -21,7 +21,8 @@ Modelo P2P
 
 TCP e UDP são protocolos da camada de transporte.
 
-Serviço orientado a conexão (TCP)
+### Serviço orientado a conexão (TCP)
+
 1. Os dados chegam em ordem
 2. Os dados chegam por completo
 3. OS daddos não são modificados
@@ -30,9 +31,24 @@ Serviço orientado a conexão (TCP)
 
 1., 2., 3. são os principais. 4. e 5. são adicionais.
 
-- RFC793
-  - Documento da IETF que especifica como implementar o protocolo TCP.
-  - Transferência de dados confiável e sequencial orientada à cadeia de bytes.
+RFC793
+- Documento da IETF que especifica como implementar o protocolo TCP.
+- Transferência de dados confiável e sequencial orientada à cadeia de bytes.
 
-Serviço não orientado à conexão (UDP)
+Exemplo de protocolo TFP
+- HTTP
+- FTP
+- SSH
 
+### Serviço não orientado à conexão (UDP)
+
+1. Transferência de dados não confiáveis
+2. Sem controle de fluxo
+3. Sem controle de comgestionamento
+
+RCF768
+- Documento da IETF que especifica como implementar o UDP
+- Serviço sem conexão à internet
+
+Exemplo de protocolo UDP
+- DNS
