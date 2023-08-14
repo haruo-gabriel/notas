@@ -73,6 +73,8 @@ Exemplo de protocolo UDP
   3. O circuito é criado.
 1. O circuito é encerrado.
 
+## Divisão de canal
+
 A divisão do canal pode ser feita por frequência ou por tempo.
 
 - FDM (Frequency Division Multiplexing)
@@ -80,4 +82,9 @@ A divisão do canal pode ser feita por frequência ou por tempo.
 - TDM (Time Division Multiplexing)
   - Divisão do canal por tempo
 
-
+Os pacotes, quando unidos, constroem uma mensagem.
+- Redes de telegrama
+  - O caminho a ser seguido é descoberto a cada 'salto para cada pacote
+- Redes de circuito
+  - Haverá um momento de reserva de recursos
+  - Compara com um identificador de circuito virtual (Virtual CI)
