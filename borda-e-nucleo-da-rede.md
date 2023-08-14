@@ -71,6 +71,11 @@ Exemplo de protocolo UDP
   1. Pede para a rede que crie um circuito para B.
   2. Verifica se a rede suporta
   3. O circuito é criado.
-  4. O circuito é encerrado.
+1. O circuito é encerrado.
+
+A divisão do canal pode ser feita por frequência ou por tempo.
+
 - FDM (Frequency Division Multiplexing)
-  - Divisão do canal pode ser por tempo e/ou frequência
+  - Divisão do canal por frequência
+- TDM (Time Division Multiplexing)
+  - Divisão do canal por tempo
