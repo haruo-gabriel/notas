@@ -72,4 +72,5 @@ Exemplo de protocolo UDP
   2. Verifica se a rede suporta
   3. O circuito é criado.
   4. O circuito é encerrado.
-
+- FDM (Frequency Division Multiplexing)
+  - Divisão do canal pode ser por tempo e/ou frequência
