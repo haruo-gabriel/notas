@@ -9,6 +9,8 @@ Partindo de uma visão top-down (de cima para baixo), a internet pode ser dividi
 4. Enlace
 5. Física
 
+As camadas usam serviços da camada de baixo e fornecem serviço para a camada de cima.
+
 ## Aplicação
 
 - Mensagem
