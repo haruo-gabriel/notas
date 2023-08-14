@@ -8,3 +8,13 @@ Partindo de uma visão top-down (de cima para baixo), a internet pode ser dividi
 3. Rede
 4. Enlace
 5. Física
+
+## Aplicação
+
+- Mensagem
+- FTP, HTTP, DNS, MATT
+
+## Transporte
+
+- Segmentos
+- TCP, UDP
