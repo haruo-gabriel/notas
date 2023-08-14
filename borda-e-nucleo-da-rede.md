@@ -85,6 +85,9 @@ A divisão do canal pode ser feita por frequência ou por tempo.
 Os pacotes, quando unidos, constroem uma mensagem.
 - Redes de datagrama
   - O caminho a ser seguido é descoberto a cada 'salto para cada pacote
+  - A **internet** é uma rede de datagrama
+  - Orientado a conexão (TCP)
 - Redes de circuito
   - Haverá um momento de reserva de recursos
   - Compara com um identificador de circuito virtual (Virtual CI)
+  - Não orientado a conexão (UDP)
