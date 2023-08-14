@@ -32,5 +32,10 @@ Partindo de uma visão top-down (de cima para baixo), a internet pode ser dividi
 - Quadros
 - Ethernet, Wi-fi
 - Transferência de dados em rede local
-- 
+
+## Física
+
+- Quadro de luz, sinais de rádio
+- Fibra ótica, cabo coaxial, cobre, antena wi-fi
+- Envio dos bits propriamente ditos
 
