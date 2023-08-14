@@ -97,3 +97,8 @@ Os pacotes, quando unidos, constroem uma mensagem.
   - residencial (fibra óptica, fios de cobre)
   - móvel (1G, 2G, 3G, 4G, 5G, 6G)
   - institucional (Wi-Fi, LAN)
+
+## Núcleo da rede
+
+- Comutação de circuito (FDM ou TDM) ou comutação de pacotes (redes de datagrama ou de circuito virtual)
+- Provedores de acesso à internet
