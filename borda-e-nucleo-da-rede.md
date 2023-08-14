@@ -79,3 +79,5 @@ A divisão do canal pode ser feita por frequência ou por tempo.
   - Divisão do canal por frequência
 - TDM (Time Division Multiplexing)
   - Divisão do canal por tempo
+
+
