@@ -83,7 +83,7 @@ A divisão do canal pode ser feita por frequência ou por tempo.
   - Divisão do canal por tempo
 
 Os pacotes, quando unidos, constroem uma mensagem.
-- Redes de telegrama
+- Redes de datagrama
   - O caminho a ser seguido é descoberto a cada 'salto para cada pacote
 - Redes de circuito
   - Haverá um momento de reserva de recursos
