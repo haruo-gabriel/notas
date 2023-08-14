@@ -14,12 +14,14 @@ Partindo de uma visão top-down (de cima para baixo), a internet pode ser dividi
 - Mensagem
 - FTP, HTTP, DNS, MATT
 - Aplicação da internet
+- Nível de usuário
 
 ## Transporte
 
 - Segmentos
 - TCP, UDP
 - Transferência de dados entre hosts
+- Daqui para baixo, nível de kernel e SO
 
 ## Rede
 
