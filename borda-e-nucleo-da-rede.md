@@ -91,3 +91,9 @@ Os pacotes, quando unidos, constroem uma mensagem.
   - Haverá um momento de reserva de recursos
   - Compara com um identificador de circuito virtual (Virtual CI)
   - Não orientado a conexão (UDP)
+
+## Redes de acesso e meios físicos
+- Fornecem acesso à internet por meio de um roteador de borda
+  - residencial (fibra óptica, fios de cobre)
+  - móvel (1G, 2G, 3G, 4G, 5G, 6G)
+  - institucional (Wi-Fi, LAN)
