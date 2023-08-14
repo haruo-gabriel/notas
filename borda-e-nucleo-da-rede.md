@@ -52,3 +52,24 @@ RCF768
 
 Exemplo de protocolo UDP
 - DNS
+
+## Núcleo da rede
+
+- Malha de roteadores
+- Como os dados são transferidos na rede? (não focando apenas na internet)
+- Comutação de circuito
+  - Usa um canal dedicado para cada conexão
+- Comutação de pacotes
+  - Os dados são enviados em blocos sem canais dedicados
+
+## Comutação de circuito
+
+- Taxa de transmissão
+  - A capacidade dos roteadores é bem definida
+- Recursos não dedicados
+- Exige estabelecimento de conexão
+  1. Pede para a rede que crie um circuito para B.
+  2. Verifica se a rede suporta
+  3. O circuito é criado.
+  4. O circuito é encerrado.
+
