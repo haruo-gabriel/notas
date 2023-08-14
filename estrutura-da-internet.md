@@ -13,8 +13,24 @@ Partindo de uma visão top-down (de cima para baixo), a internet pode ser dividi
 
 - Mensagem
 - FTP, HTTP, DNS, MATT
+- Aplicação da internet
 
 ## Transporte
 
 - Segmentos
 - TCP, UDP
+- Transferência de dados entre hosts
+
+## Rede
+
+- Datagramas
+- IPv4, IPv6, ICMP
+- Roteamento da origem ao destino e identificação dos elementos da rede
+
+## Enlace
+
+- Quadros
+- Ethernet, Wi-fi
+- Transferência de dados em rede local
+- 
+
