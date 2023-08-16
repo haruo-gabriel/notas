@@ -17,3 +17,4 @@ Para criar o socket, é necessário informar onde está o outro processo
    - `/etc/services`
    - Associada à camada de transporte
 2. Qual é a máquina que está rodando o processo?
+   - 
