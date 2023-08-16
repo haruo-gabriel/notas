@@ -15,4 +15,5 @@ Para criar o socket, é necessário informar onde está o outro processo
 1. Qual é o processo na outra máquina
    - Isso é informado por um número de 16 bits chamado de **porta** (são 65536 portas possíveis)
    - `/etc/services`
-2. 
+   - Associada à camada de transporte
+2. Qual é a máquina que está rodando o processo?
