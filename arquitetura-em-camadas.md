@@ -18,3 +18,4 @@ Para criar o socket, é necessário informar onde está o outro processo
    - Associada à camada de transporte
 2. Qual é a máquina que está rodando o processo?
    - É a máquina com um certo endereço IP
+   - IPv4 (32 bits)
