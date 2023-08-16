@@ -13,3 +13,6 @@
 
 Para criar o socket, é necessário informar onde está o outro processo 
 1. Qual é o processo na outra máquina
+   - Isso é informado por um número de 16 bits chamado de **porta** (são 65536 portas possíveis)
+   - `/etc/services`
+2. 
