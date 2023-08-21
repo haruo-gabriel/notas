@@ -8,5 +8,5 @@
 - A conexão é estabelecida nos 2 sentidos (é possível tanto cliente quanto servidor terem reads e writes)
 - Reads e writes precisam estar sincronizados
 - Todas as garantias do TCP estão embutidas no socket
-  - Mas pode ser interessnate tomar algumas ações para 
+  - Mas pode ser interessnate tomar algumas ações para sendo em segurança
 
