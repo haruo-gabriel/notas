@@ -27,6 +27,18 @@ _obs.: os trechos grifados são específicos do daytime_
 7. Implementar o protocolo de camada de aplicação
 - **No caso do daytime, vai ser um laço com read**
 
+
+## Passo-a-passo para implementar um servidor
+
+0. Ler a RFC
+1. Definir quantos sockets serão necessários
+2. Definir quantas áreas de memória serão necessárias para armazenar informações enviadas e recebidas
+3. Declarar a estrutura de endereçamento para cada socket
+4. Criar o socket
+5. Preparar a estrutura de endereço
+6. Informar que o socket vai escutar em uma porta específica
+7. Inrormar que vai escutar por conexão
+
 ```C
 /* Código simples de um servidor daytime. Não é o código ideal (deveria ter
  * returns ou exits após os erros das funções por exemplo) mas é suficiente
@@ -84,14 +96,3 @@ int main(int argc, char **argv) {
   return(0);
 }
 ```
-
-## Passo-a-passo para implementar um servidor
-
-0. Ler a RFC
-1. Definir quantos sockets serão necessários
-2. Definir quantas áreas de memória serão necessárias para armazenar informações enviadas e recebidas
-3. Declarar a estrutura de endereçamento para cada socket
-4. Criar o socket
-5. Preparar a estrutura de endereço
-6. Informar que o socket vai escutar em uma porta específica
-7. Inrormar que vai escutar por conexão
