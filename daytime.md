@@ -12,4 +12,5 @@ _obs.: os trechos grifados são específicos do daytime_
   - Qual a sequência de reads e writes?
     - 
   - Quem fecha a conexão?
-1. 
+1. Definir quantos sockets são necessários
+  - 
