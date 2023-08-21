@@ -25,7 +25,7 @@ _obs.: os trechos grifados são específicos do daytime_
 ![TCP server process](image-2.png) 
 - [[three-way-handshake]]
 1. Implementar o protocolo de camada de aplicação
-- **No caso do odaytime, vai ser um laço com read**
+- **No caso do daytime, vai ser um laço com read**
 
 ```C
 /* Código simples de um servidor daytime. Não é o código ideal (deveria ter
