@@ -22,3 +22,7 @@ _obs.: os trechos grifados são específicos do daytime_
 5. Preparar a estrutura de endereçameno de cada socket criado no passo 4
 - Tomar cuidado com a representação interna dos bytes na máquina
 6. Fazer a conexão
+![TCP server process](image-2.png) 
+- [[three-way-handshake]]
+7. Implementar o protocolo de camada de aplicação
+- **No caso do odaytime, vai ser um laço com read**
