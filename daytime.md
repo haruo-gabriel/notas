@@ -17,4 +17,7 @@ _obs.: os trechos grifados são específicos do daytime_
    - **`char recvline[MAXLINE+1]`*  *
 3. Declarar a estrutura de endereçamento para cada socket
   - **`struct sockaddr_in servaddr`**
-4. 
+4. Criar cada socket e associar aos descritores do passo 1
+   - Definir qual é o protocolo de de transporte
+   - **TCP**
+5. 
