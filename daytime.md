@@ -14,4 +14,7 @@ _obs.: os trechos grifados são específicos do daytime_
   - Quem fecha a conexão?
 1. Definir quantos sockets são necessários
 2. Definir quantas áreas de memória serão necessárias para armazenar informações enviadas e recebidas
-   - **`char recvline[MAXLINE+1]`**
+   - **`char recvline[MAXLINE+1]`*  *
+3. Declarar a estrutura de endereçamento para cada socket
+  - **`struct sockaddr_in servaddr`**
+4. 
