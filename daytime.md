@@ -37,7 +37,8 @@ _obs.: os trechos grifados são específicos do daytime_
 4. Criar o socket
 5. Preparar a estrutura de endereço
 6. Informar que o socket vai escutar em uma porta específica
-7. Inrormar que vai escutar por conexão
+7. Informar que vai escutar por conexão
+8. Aceitar as conexões dos clientes
 
 ```C
 /* Código simples de um servidor daytime. Não é o código ideal (deveria ter
