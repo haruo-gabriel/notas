@@ -39,6 +39,7 @@ _obs.: os trechos grifados são específicos do daytime_
 6. Informar que o socket vai escutar em uma porta específica
 7. Informar que vai escutar por conexão
 8. Aceitar as conexões dos clientes
+9. Implementar o protocolo da camada de aplicação
 
 ```C
 /* Código simples de um servidor daytime. Não é o código ideal (deveria ter
@@ -70,18 +71,17 @@ int main(int argc, char **argv) {
   if (listenfd < 0)
     fprintf(stderr,"socket error :(\n");
   
-  // passo 5 (?)
+  // passo 5
   bzero(&servaddr, sizeof(servaddr));
   servaddr.sin_family = AF_INET;
   servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
-  servaddr.sin_port = htons(13);
+  servaddr.sin_port = htons(13); // passo 6
   
   if (bind(listenfd, (struct sockaddr *) &servaddr, sizeof(servaddr)) < 0 )
     fprintf(stderr,"bind error :(\n");
   if (listen(listenfd, LISTENQ) < 0)
     fprintf(stderr,"listen error :(\n");
   
-  // passo 6 e 7 (?)
   for ( ; ; ) {
     connfd = accept(listenfd, (struct sockaddr *) NULL, NULL);
     if (connfd < 0)
