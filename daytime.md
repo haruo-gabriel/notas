@@ -73,8 +73,8 @@ int main(int argc, char **argv) {
   
   // passo 5
   bzero(&servaddr, sizeof(servaddr));
-  servaddr.sin_family = AF_INET;
-  servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
+  servaddr.sin_family = AF_INET; 
+  servaddr.sin_addr.s_addr = htonl(INADDR_ANY); // 
   servaddr.sin_port = htons(13); // passo 6
   
   if (bind(listenfd, (struct sockaddr *) &servaddr, sizeof(servaddr)) < 0 )
