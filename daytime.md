@@ -48,37 +48,37 @@ _obs.: os trechos grifados são específicos do daytime_
 #define MAXLINE 100
 #define LISTENQ 1
 int main(int argc, char **argv) {
- int listenfd, connfd;
- struct sockaddr_in servaddr;
- char buff[MAXLINE];
- time_t ticks;
- 
- listenfd = socket(AF_INET, SOCK_STREAM, 0);
- if (listenfd < 0)
- fprintf(stderr,"socket error :(\n");
- 
- bzero(&servaddr, sizeof(servaddr));
- servaddr.sin_family = AF_INET;
- servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
- servaddr.sin_port = htons(13);
- 
- if (bind(listenfd, (struct sockaddr *) &servaddr, sizeof(servaddr)) < 0 )
- fprintf(stderr,"bind error :(\n");
- if (listen(listenfd, LISTENQ) < 0)
- fprintf(stderr,"listen error :(\n");
- 
- for ( ; ; ) {
- connfd = accept(listenfd, (struct sockaddr *) NULL, NULL);
- if (connfd < 0)
- fprintf(stderr,"accept error :(\n");
- 
- ticks = time(NULL);
- snprintf(buff, sizeof(buff), "%.24s\r\n", ctime(&ticks));
- if (write(connfd, buff, strlen(buff)) < 0)
- fprintf(stderr,"write error :(\n");
- 
- close(connfd);
- }
- return(0);
+  int listenfd, connfd;
+  struct sockaddr_in servaddr;
+  char buff[MAXLINE];
+  time_t ticks;
+  
+  listenfd = socket(AF_INET, SOCK_STREAM, 0);
+  if (listenfd < 0)
+    fprintf(stderr,"socket error :(\n");
+  
+  bzero(&servaddr, sizeof(servaddr));
+  servaddr.sin_family = AF_INET;
+  servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
+  servaddr.sin_port = htons(13);
+  
+  if (bind(listenfd, (struct sockaddr *) &servaddr, sizeof(servaddr)) < 0 )
+    fprintf(stderr,"bind error :(\n");
+  if (listen(listenfd, LISTENQ) < 0)
+    fprintf(stderr,"listen error :(\n");
+  
+  for ( ; ; ) {
+    connfd = accept(listenfd, (struct sockaddr *) NULL, NULL);
+    if (connfd < 0)
+      fprintf(stderr,"accept error :(\n");
+    
+    ticks = time(NULL);
+    snprintf(buff, sizeof(buff), "%.24s\r\n", ctime(&ticks));
+    if (write(connfd, buff, strlen(buff)) < 0)
+      fprintf(stderr,"write error :(\n");
+    
+    close(connfd);
+  }
+  return(0);
 }
 ```
