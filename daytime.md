@@ -49,14 +49,15 @@ _obs.: os trechos grifados são específicos do daytime_
 #define LISTENQ 1
 int main(int argc, char **argv) {
   int listenfd, connfd;
-  struct sockaddr_in servaddr;
-  char buff[MAXLINE];
+  char buff[MAXLINE]; // passo 2
+  struct sockaddr_in servaddr; // passo 3
   time_t ticks;
   
-  listenfd = socket(AF_INET, SOCK_STREAM, 0);
+  listenfd = socket(AF_INET, SOCK_STREAM, 0); // passo 4 (?)
   if (listenfd < 0)
     fprintf(stderr,"socket error :(\n");
   
+  // passo 5 (?)
   bzero(&servaddr, sizeof(servaddr));
   servaddr.sin_family = AF_INET;
   servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
@@ -67,6 +68,7 @@ int main(int argc, char **argv) {
   if (listen(listenfd, LISTENQ) < 0)
     fprintf(stderr,"listen error :(\n");
   
+  // passo 6 e 7 (?)
   for ( ; ; ) {
     connfd = accept(listenfd, (struct sockaddr *) NULL, NULL);
     if (connfd < 0)
