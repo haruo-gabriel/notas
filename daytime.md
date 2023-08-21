@@ -88,7 +88,8 @@ int main(int argc, char **argv) {
 0. Ler a RFC
 1. Definir quantos sockets serão necessários
 2. Definir quantas áreas de memória serão necessárias para armazenar informações enviadas e recebidas
-- **`char recvline[MAXLINE+1]`**
 3. Declarar a estrutura de endereçamento para cada socket
 4. Criar o socket
 5. Preparar a estrutura de endereço
+6. Informar que o socket vai escutar em uma porta específica
+7. Inrormar que vai escutar por conexão
