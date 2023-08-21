@@ -2,7 +2,7 @@
 
 - Cliente e servidor
 
-## Passo-a-passo para implementar um cliente e um servidor
+## Passo-a-passo para implementar um cliente
 
 _obs.: os trechos grifados são específicos do daytime_
 
@@ -14,17 +14,17 @@ _obs.: os trechos grifados são específicos do daytime_
 1. Definir quantos sockets são necessários
 2. Definir quantas áreas de memória serão necessárias para armazenar informações enviadas e recebidas
 - **`char recvline[MAXLINE+1]`**
-1. Declarar a estrutura de endereçamento para cada socket
+3. Declarar a estrutura de endereçamento para cada socket
 - **`struct sockaddr_in servaddr`**
-1. Criar cada socket e associar aos descritores do passo 1
+4. Criar cada socket e associar aos descritores do passo 1
 - Definir qual é o protocolo de de transporte
-- **TCP**
-1. Preparar a estrutura de endereçameno de cada socket criado no passo 4
+  - **TCP**
+5. Preparar a estrutura de endereçameno de cada socket criado no passo 4
 - Tomar cuidado com a representação interna dos bytes na máquina
-1. Fazer a conexão
+6. Fazer a conexão
 ![TCP server process](image-2.png) 
 - [[three-way-handshake]]
-1. Implementar o protocolo de camada de aplicação
+7. Implementar o protocolo de camada de aplicação
 - **No caso do daytime, vai ser um laço com read**
 
 ```C
@@ -82,3 +82,13 @@ int main(int argc, char **argv) {
   return(0);
 }
 ```
+
+## Passo-a-passo para implementar um servidor
+
+0. Ler a RFC
+1. Definir quantos sockets serão necessários
+2. Definir quantas áreas de memória serão necessárias para armazenar informações enviadas e recebidas
+- **`char recvline[MAXLINE+1]`**
+3. Declarar a estrutura de endereçamento para cada socket
+4. Criar o socket
+5. Preparar a estrutura de endereço
