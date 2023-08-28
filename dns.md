@@ -27,3 +27,13 @@ Tipo CNAME
 
 Tipo MX
 - Entrega um domínio e recebe o servidor de email do domínio
+
+## Exemplo de como ter um novo nome na internet
+
+Empresa fictícia "Network Utopia".
+
+obs.: todos esses tipos de informações do DNS são chamadas de RESOURCE RECORDS (RRs)
+
+1. Contratar o serviço de alguma empresa que registre domínios>
+- A empresa que você contratou vai fornecer nome e IPs (RR tipo NS) para sua empresa fazendo referência ao seu servidor DNS.
+2. A empresa **Network Utopia** configura um servidor DNS responsável por todos os nomes **networkutopia.com** (RRs do tipo A são possíves a partir de agora). Muito provavelmente o admin da **Network Utopia** vai configurar o *BIND*.
