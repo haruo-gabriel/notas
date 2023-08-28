@@ -10,4 +10,12 @@ Cache faz diferença!
 Como o SO resolve o problema de cache?
 1. Olha no cache
 2. Olha no `etc/hosts` (localhost 127.0.0.1)
-3. 
+3. Pede para o servidor DNS que está configurado na rede configurada
+   1. O servidor olha no cache
+   2. O servidor navega pela árvore de DNS
+
+## Tipos de DNS
+
+DNS tipo A
+- Entrega um nome e recebe um endereço IP
+- 
