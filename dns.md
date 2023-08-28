@@ -16,6 +16,14 @@ Como o SO resolve o problema de cache?
 
 ## Tipos de DNS
 
-DNS tipo A
+Tipo A
 - Entrega um nome e recebe um endereço IP
-- 
+
+Tipo NS
+- Entrega um domínio e recebe um nome que é o servidor DNS reformável pelo domínio
+  
+Tipo CNAME
+- Entrega um apelido (que é um nomejA e recebe um nome real)
+
+Tipo MX
+- Entrega um domínio e recebe o servidor de email do domínio
