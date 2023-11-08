@@ -15,5 +15,11 @@ obs.: A [[DFT]] não lida bem com pulos. Lembre-se de que a DFT retorna um sinal
 
 ![DFT estendida da função identidade](image-5.png)
 
+## Derivação da DCT
+
+Seja
+$$c_k = 2 \sum_{m=0}^{N-1} x_m \cos\left(\frac{\pi k (m + 1/2)}{N}\right)$$
+tal que os termos da DCT são
+$$\~{X}_k = e^{\pi i k / 2N} c_k$$
 
 
