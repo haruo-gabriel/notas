@@ -1,8 +1,10 @@
 # DCT
 
 - Motivação: compressão de sinais
-- Limiarização
+- Limiarização (threshholding)
   ![limiarização](image-4.png)
 - Codificação
 
-- Proporção 
+Medidas de compressão
+- Razão de compressão ($P(c)$)
+- Distorção ($D(c)$)
