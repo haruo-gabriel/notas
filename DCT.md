@@ -4,3 +4,5 @@
 - Limiarização
   ![limiarização](image-4.png)
 - Codificação
+
+- Proporção 
