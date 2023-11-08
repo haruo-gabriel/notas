@@ -1,6 +1,7 @@
 # DCT
 
 - Motivação: compressão de sinais
+
 - Limiarização (threshholding)
   ![limiarização](image-4.png)
 - Codificação
