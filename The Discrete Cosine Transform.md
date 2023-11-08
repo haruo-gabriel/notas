@@ -1,2 +1,0 @@
-# The Discrete Cosine Transform
-
