@@ -22,4 +22,13 @@ $$c_k = 2 \sum_{m=0}^{N-1} x_m \cos\left(\frac{\pi k (m + 1/2)}{N}\right)$$
 tal que os termos da DCT são
 $$\~{X}_k = e^{\pi i k / 2N} c_k$$
 
+## Definição de DCT e IDCT
+
+$$
+\begin{align*}
+	C_0 &= \sqrt{\frac{1}{N}}\sum\limits_{m=0}^{N-1} x_m\cos\left(\frac{\pi 0\left(m+\frac{1}{2}\right)}{N}\right)
+	= \sqrt{\frac{1}{N}}\sum\limits_{m=0}^{N-1} x_m \\
+	C_k &= \sqrt{\frac{2}{N}}\sum\limits_{m=0}^{N-1} x_m\cos\left(\frac{\pi k\left(m+\frac{1}{2}\right)}{N}\right), k = 1, 2, \dots, N-1 \\
+\end{align*}
+$$
 
