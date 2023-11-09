@@ -23,7 +23,6 @@ tal que os termos da DCT são
 $$\~{X}_k = e^{\pi i k / 2N} c_k$$
 
 ## Definição de DCT e IDCT
-
 $$
 \begin{align*}
 	C_0 &= \sqrt{\frac{1}{N}}\sum\limits_{m=0}^{N-1} x_m\cos\left(\frac{\pi 0\left(m+\frac{1}{2}\right)}{N}\right)
@@ -32,3 +31,12 @@ $$
 \end{align*}
 $$
 
+### Forma matricial da DCT
+$$
+\begin{matrix}
+	\~{X}_0 & \\
+	\~{X}_1 \\
+	\vdots \\
+	\~{X}_{N-1}
+\end{matrix}
+$$
