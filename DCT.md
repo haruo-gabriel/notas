@@ -33,10 +33,5 @@ $$
 
 ### Forma matricial da DCT
 $$
-\begin{matrix}
-	\~{X}_0 & \\
-	\~{X}_1 \\
-	\vdots \\
-	\~{X}_{N-1}
-\end{matrix}
+C(u,v) = \sqrt{\frac{2}{N}} \cdot \alpha(u) \cdot \alpha(v) \sum_{x=0}^{N-1} \sum_{y=0}^{N-1} f(x,y) \cos\left(\frac{(2x+1)u\pi}{2N}\right) \cos\left(\frac{(2y+1)v\pi}{2N}\right)
 $$
