@@ -11,7 +11,8 @@ Queremos que nenhum código de uma chave seja prefixo de outro código de outra 
 
 ## Árvores de Huffman
 
-Uma árvore de código (no alfabeto $\Sigma$) é uma árvore binária cheioa (cada nó tem 0 ou 2 filhos) cuhas folhas são exaa
+Uma árvore de código (no alfabeto $\Sigma$) é uma árvore binária cheia (cada nó tem 0 ou 2 filhos) cujas folhas são exatamente os símbolos de $\Sigma$. Dadas as frequências $f: \Sigma \to \mathbb{N}$ para cada símbolo, o custo de uma árvore de código $T$ é $c(T) \coloneqq \sum_{x \in \Sigma} f[x]\cdot \text{depth}_T(x)$.
+Queremos uma árvore de código $T$ que **minimize** $c(T)$.
 
 ## Algoritmo de Huffman
 
