@@ -3,6 +3,7 @@
 - Motivação: compressão de dados
 - Codificação e decodificação
 
-- Codificação livre de prefixos
+- Códigos de prefixo
+
 
 ## Árvores de Huffman
