@@ -11,6 +11,8 @@ Queremos que nenhum código de uma chave seja prefixo de outro código de outra 
 
 ## Árvores de Huffman
 
+Uma árvore de código (no alfabeto $\Sigma$) é uma árvore binária cheioa (cada nó tem 0 ou 2 filhos) cuhas folhas são exaa
+
 ## Algoritmo de Huffman
 
 O algoritmo de Huffman é um [[algoritmo guloso]].
