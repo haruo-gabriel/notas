@@ -21,7 +21,9 @@ Logo, $T'$ tem custo mínimo. Analogamente, a árvore $T''$ obtida de $T'$ troca
 
 **FATO 2**:  Seja $\Sigma$ um alfabeto (conjunto finito de símbolos) e $f: \Sigma \to \N$. Sejam $x$ e $y$ símbolos de $\Sigma$ com as 2 menores frequências e seja $z$ um símbolo novo (que não está em $\Sigma$). Defina $\Sigma' \coloneqq (\Sigma \setminus \set{x,y}) \cup \set{z}$ e $f': \Sigma' \to \N$ como
 $$\begin{align*} f'(u) \coloneqq \begin{cases}f(u) &\text{se } u \neq z\\ f(x)+f(y)&\text{se } u = z\end{cases} \end{align*}$$
-Defina uma bijeção $\varphi$ das árvores de código sobre $\Sigma$ em que $x$ e $y$ são folhas irmãs para as árvores de código sobre $\Sigma'$ da seguinte forma: dada $T$, defina $\varphi(T)$ removendo $x$ e $y$ e nomeando seu pai comum de $z$.
+Defina uma bijeção $\varphi$ das árvores de código sobre $\Sigma$ em que $x$ e $y$ são folhas irmãs para as árvores de código sobre $\Sigma'$ da seguinte forma: dada $T$, defina $\varphi(T)$ removendo $x$ e $y$ e nomeando seu pai comum de $z$. Então, para toa árvore $T$ no domínio de $\varphi$,
+$$c_f(T) = c_{f'}(\varphi (T)) + (f[x] + f[y])$$
+obs.: A diferença das árvores é uma constante. Isso significa que 
 
 ## Algoritmo de Huffman
 
