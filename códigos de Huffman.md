@@ -11,3 +11,6 @@ Queremos que nenhum código de uma chave seja prefixo de outro código de outra 
 
 ## Árvores de Huffman
 
+## Algoritmo de Huffman
+
+O algoritmo de Huffman é um [[algoritmo guloso]].
