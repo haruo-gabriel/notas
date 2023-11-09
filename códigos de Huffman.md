@@ -15,7 +15,7 @@ Uma árvore de código (no alfabeto $\Sigma$) é uma árvore binária cheia (cad
 Queremos uma árvore de código $T$ que **minimize** $c(T)$.
 
 **FATO 1**: Sejam $x$ e $y$ os dois elementos de $\Sigma$ com as duas menores frequências. Então **existe** uma árvore de código de custo mínimo em que $x$ e $y$ são folhas irmãs.
-**PROVA**: Seja $T$ uma árvore de cóigo de custo mínimo. Sejam $a$ e $b$ símbolos em folhas irmâs de profundidade máxima $d$.
+**PROVA**: Seja $T$ uma árvore de cóigo de custo mínimo. Sejam $a$ e $b$ símbolos em folhas irmãs de profundidade máxima $d$. Se $a \neq x$, seja $T'$ a árvore obtida trocando os nós $a$ e $x$. Então $\text{depth}_{T'}[a] = \text{depth}_{T}[a] - \Delta$ e $\text{depth}_{T'}[x] = \text{depth}_{T}[x] + \Delta$ para algum inteiro $\Delta \geq 0$.
 
 ## Algoritmo de Huffman
 
