@@ -34,3 +34,6 @@ $$
 ### Forma matricial da DCT
 
 ![Forma matricial da DCT](image-6.png)
+
+## DCT bidimensional
+
