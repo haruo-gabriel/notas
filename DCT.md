@@ -24,6 +24,9 @@ $$\~{X}_k = e^{\pi i k / 2N} c_k$$
 
 ## Definição de DCT e IDCT
 
+![Definição de DCT](image-9.png)
+![Definição de IDCT](image-8.png)
+
 **Definition 3.3** Seja $x \in \mathbb{C}^N$. A DCT (type II) de $x$ é o vetor $C \in \mathbb{C}^N$ com componentes $C_k$ definidas por
 $$\begin{align*}
 	C_0 &= \sqrt{\frac{1}{N}}\sum\limits_{m=0}^{N-1} x_m\cos\left(\frac{\pi 0\left(m+\frac{1}{2}\right)}{N}\right)
