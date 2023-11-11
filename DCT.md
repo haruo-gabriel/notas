@@ -37,4 +37,4 @@ $$\begin{align*}
 
 ## DCT bidimensional
 
-![Alt text](image-7.png)
+![Fórmula explícita para DCT bidimensional](image-7.png)
