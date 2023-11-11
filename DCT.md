@@ -37,3 +37,4 @@ $$\begin{align*}
 
 ## DCT bidimensional
 
+![Alt text](image-7.png)
