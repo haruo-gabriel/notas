@@ -1,4 +1,4 @@
-# notacao-assintotica
+# notação assintótica
 
 ## Notação O
 
