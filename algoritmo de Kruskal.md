@@ -1,3 +1,3 @@
 # algoritmo de Kruskal
 
-- union-find
+- union-fin d
