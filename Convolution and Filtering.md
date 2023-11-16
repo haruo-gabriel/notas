@@ -17,4 +17,4 @@ para $r = 0, 1, \dots, N-1$. A convolução de $x$ e $y$ é denotada por $w = x 
 
 ### Propriedades da convolução:
 
-![Computação da convoul](image-13.png)
+![Computação da convolução](image-13.png)
