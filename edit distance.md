@@ -6,5 +6,6 @@ As operações são:
 - Remover um caractere
 - Substituir um caractere
 
-## Subproblema
+## Resolução por programação dinâmica (bottom-up)
+
 O subproblema é $d(i,j)$, que é a distância entre os prefixos $A[1..i]$ e $B[1..j]$.
