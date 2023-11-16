@@ -1,3 +1,5 @@
 # algoritmo de Kruskal
 
-- union-fin d
+![Pseudocódigo do algoritmo de Kruskal](image-10.png)
+
+- union-find
