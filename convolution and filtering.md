@@ -30,11 +30,9 @@ para $r = 0, 1, \dots, N-1$. A convolução de $x$ e $y$ é denotada por $w = x 
 ### Teorema da Convolução
 
 Se $x, y, w\in\mathbb{C}^N$ onde $w=x*y$, então
-
 $$
 \begin{equation*}
 	W_k = X_k Y_k,\quad k= 0, 1, \dots, N-1
 \end{equation*}
 $$
-
 onde $X, Y, W\in\mathbb{C}^N$ são as DFT's de $x, y, w$, respectivamente.
