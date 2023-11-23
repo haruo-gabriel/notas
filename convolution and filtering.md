@@ -24,3 +24,5 @@ para $r = 0, 1, \dots, N-1$. A convolução de $x$ e $y$ é denotada por $w = x 
 - matriz circulante
 - associatividade
 - periodicidade
+
+## Matriz circulante
