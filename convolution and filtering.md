@@ -1,4 +1,4 @@
-# Convolution and Filtering
+# convolution and filtering
 
 Convolução é um método no domínio tempmoral para filtragem de sinais.
 
