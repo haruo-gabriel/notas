@@ -17,13 +17,14 @@ para $r = 0, 1, \dots, N-1$. A convolução de $x$ e $y$ é denotada por $w = x 
 
 ![Computação da convolução](image-13.png)
 
-### Propriedades da convolução:
+### Propriedades da convolução
+1. linearidade
+2. comutatividade
+3. matriz circulante
+4. associatividade
+5. periodicidade
 
-- linearidade
-- comutatividade
-- matriz circulante
-- associatividade
-- periodicidade
+*obs.: esse é o Theorem 4.1 do livro*
 
 ## 4.3: Convolution Theorem and Filtering
 
