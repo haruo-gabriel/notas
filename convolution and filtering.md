@@ -7,7 +7,7 @@ Convolução é um método no domínio tempmoral para filtragem de sinais.
 - low-pass filtering
   - é um tipo especial de convolução
   - moving average
-- assumir que os sinais são periódicos: $x_k = x_{k \mod N}$
+- assumimos que os sinais são periódicos: $x_k = x_{k \mod N}$
 - ![A soma de quaisquer N consecutivos de x é igual](image-12.png)
 
 ### Definição de convolução:
@@ -24,5 +24,3 @@ para $r = 0, 1, \dots, N-1$. A convolução de $x$ e $y$ é denotada por $w = x 
 - matriz circulante
 - associatividade
 - periodicidade
-
-## Matriz circulante
