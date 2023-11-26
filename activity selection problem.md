@@ -2,10 +2,9 @@
 
 *Referente à seção 16.1 do CLRS.*
 
-Supomos que as atividades estão orgainzadas em ordem monotinicamente crescente de tempo de término: $f_1 \leq f_2 \leq \dots \leq f_n$.
-*Por que isso é vantajoso?*
-
 ## Subestrutura ótima
 
-## Propriedade da escolha gulosa (greedy-choice property)
+## Propriedade da escolha gulosa
 
+Supomos que as atividades estão orgainzadas em ordem monotinicamente crescente de tempo de término: $f_1 \leq f_2 \leq \dots \leq f_n$.
+*Por que isso é vantajoso?*
