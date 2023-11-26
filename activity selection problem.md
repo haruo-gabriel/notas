@@ -7,3 +7,5 @@ Supomos que as atividades estão orgainzadas em ordem monotinicamente crescente 
 
 ## Subestrutura ótima
 
+## Propriedade da escolha gulosa (greedy-choice property)
+
