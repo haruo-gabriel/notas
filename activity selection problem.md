@@ -1,4 +1,4 @@
-# job scheduling
+# activity selection problem
 
 *Referente à seção 16.1 do CLRS.*
 

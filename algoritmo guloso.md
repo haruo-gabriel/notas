@@ -1,4 +1,4 @@
 # algoritmo guloso
 
-[[job scheduling]]
+[[activity selection problem]]
 [[códigos de Huffman]]
