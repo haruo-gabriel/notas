@@ -6,3 +6,4 @@ Supomos que as atividades estão orgainzadas em ordem monotinicamente crescente 
 *Por que isso é vantajoso?*
 
 ## Subestrutura ótima
+
