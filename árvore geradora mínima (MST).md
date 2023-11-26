@@ -1,4 +1,4 @@
-# árvore geradora mínima
+# árvore geradora mínima (MST)
 
 - corte
   - Um corte é o conjunto de arestas que conectam um conjunto de vértices 
