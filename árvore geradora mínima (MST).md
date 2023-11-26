@@ -1,5 +1,6 @@
 # árvore geradora mínima (MST)
 
+- aresta segura
 - corte
   - Um corte é o conjunto de arestas que conectam um conjunto de vértices 
   - Um corte é definido por um conjunto de vértices
