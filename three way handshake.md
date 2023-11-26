@@ -1,4 +1,4 @@
-# three-way-handshake-(TWHS)
+# three way handshake (TWHS)
 
 1. O cliente manda um sinal SYN para o servidor
 2. O servidor recebe o sinal do cliente e manda um sinal SYN-ACK para o cliente

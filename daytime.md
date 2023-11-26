@@ -23,7 +23,7 @@ _obs.: os trechos grifados são específicos do daytime_
 - Tomar cuidado com a representação interna dos bytes na máquina
 6. Fazer a conexão
 ![TCP server process](image-2.png) 
-- [[three-way-handshake]]
+- [[three way handshake]]
 7. Implementar o protocolo de camada de aplicação
 - **No caso do daytime, vai ser um laço com read**
 
