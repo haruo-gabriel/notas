@@ -29,4 +29,5 @@
   3. combinar os resultados
 - etapa de síntese
   1. superamostrar
-  2. combinar os resultados
+  2. sintetizar
+  3. combinar os resultados
