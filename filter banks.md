@@ -31,4 +31,4 @@
   2. sintetizar
   3. combinar os resultados
 - princípio da reconstrução perfeita
-- 
+  ![equação da reconstrução perfeita](image-15.png)
