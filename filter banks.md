@@ -18,4 +18,4 @@
   - um sistema é causal se a saída em qualquer instante de tempo depende apenas de entradas presentes e passadas
   - um sistema é não-causal se a saída em qualquer instante de tempo depende de entradas futuras
   - para processar um sistema não-causal, é necessário atrasar a entrada para podermos usar os valores "futuros".
-
+- princípio da reconstrução perfeita
