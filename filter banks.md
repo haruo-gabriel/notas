@@ -5,4 +5,6 @@
   - filtro de passa-baixa é o filtro da média
   - filtro de passa-alta é o filtro da diferença normalizada
 - princípio da reconstrução perfeita
-  - jsd 
+  - downsampling
+    - reduz a frequência de amostragem pela metade, eliminando os índices ímpares do sinal
+    - 
