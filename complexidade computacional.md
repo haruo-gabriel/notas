@@ -15,5 +15,9 @@
   - problema que procura um elemento em um conjunto
 - problema de otimização
   - problema que procura um elemento de um conjunto de soluções viáveis que seja melhor possível em relação a algum critério
+- problemas NP-completos são problemas de decisão
+  - entretanto, muitos problemas NP-completos são versões de problemas de busca ou otimizaçãoJk
+  - *Normalmente, podemos expressar um determinado problema de otimização como um problema de decisão relacionado impondo um limite para o valor a ser otimizado.*
+  - *Por exemplo, um problema de decisão relacionado com SHORTEST-PATH é PATH: dado um grafo dirigido $G$, vértices $u$ e $v$, e um inteiro $k$, existe um caminho de $u$ a $v$ que consiste em no máximo $k$ arestas?*
 - P vs NP
 - satisfatibilidade booleana
