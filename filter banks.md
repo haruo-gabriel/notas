@@ -7,4 +7,5 @@
 - princípio da reconstrução perfeita
   - downsampling
     - reduz a frequência de amostragem pela metade, eliminando os índices ímpares do sinal
-    - 
+    - retorna um sinal de metade do tamanho original
+    - a preservação dos índices pares é interpretada como um sinal de 2 vezes a frequência do sinal original
