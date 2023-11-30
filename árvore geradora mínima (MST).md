@@ -1,6 +1,7 @@
 # árvore geradora mínima (MST)
 
 - aresta segura
+  - aresta $e$ que, quando adicionada a um conjunto $A$ de arestas que é subconjunto de alguma MST, produz um novo conjunto $A \cup \{e\}$ que também é subconjunto de alguma MST.
 - corte
   - Um corte é o conjunto de arestas que conectam um conjunto de vértices 
   - Um corte é definido por um conjunto de vértices
