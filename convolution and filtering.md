@@ -20,6 +20,7 @@ para $r = 0, 1, \dots, N-1$. A convolução de $x$ e $y$ é denotada por $w = x 
 ### Propriedades da convolução
 
 ![Theorem 4.1](image-14.png)
+- o elemento neutro da convolução é o vetor $(1, 0, \dots, 0)$, ou seja, o $\delta$ (delta de Djiac).
 
 ## 4.3: Convolution Theorem and Filtering
 
