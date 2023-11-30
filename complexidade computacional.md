@@ -27,7 +27,8 @@
 ## Redução
 - instância
   - cada conjunto específico de dados de um problema define uma instância
-
-![algoritmo de redução](image-16.png)
+- algoritmo de redução
+  - algoritmo que transforma uma instância de um problema em uma instância de outro problema em tempo polinomial
+  ![algoritmo de redução](image-16.png)
 
 - satisfatibilidade booleana
