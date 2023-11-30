@@ -13,4 +13,3 @@
   - upsampling
     - aumenta a frequência de amostragem pelo dobro, inserindo zeros entre as amostras
     - retorna um sinal de 2 vezes o tamanho original
-    - 
