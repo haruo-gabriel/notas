@@ -22,7 +22,6 @@
 
 ## O banco de filtros geral de 1 estágio e 2 canais
 
-- princípio da reconstrução perfeita
 - etapa de análise:
   1. filtrar
   2. subamostrar
@@ -31,3 +30,5 @@
   1. superamostrar
   2. sintetizar
   3. combinar os resultados
+- princípio da reconstrução perfeita
+- 
