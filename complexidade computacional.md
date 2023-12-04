@@ -5,6 +5,7 @@
 ## Classes de problemas
 - classe P
   - *A classe P consiste nos problemas que podem ser resolvidos em tempo polinomial. Mais especificamente, são problemas que podem ser resolvidos no tempo $O(n^k)$ para alguma constante $k$, onde $n$ é o tamanho da entrada para o problema.*
+  - Exemplo: As versões de decisão dos problemas subsequência comum máxima e [[problema da mochila fracionária]] estão em P.
 - classe NP
   - *A classe NP consiste nos problemas que são “verificáveis” em tempo polinomial.*
 - classe coNP
@@ -13,8 +14,6 @@
   - *Informalmente, um problema está na classe NPC — e nos referiremos a ele como um problema NP-completo — se ele está em NP e é tão “difícil” quanto qualquer problema em NP.*
   - *Enquanto isso, afirmaremos sem provar que, se qualquer problema NP-completo pode ser resolvido em tempo polinomial, então todo problema em NP tem um algoritmo de tempo polinomial.*
 - P vs NP
-
-- 
 
 ## Problemas de decisão vs problemas de busca vs problemas de otimização
 - problema de decisão
