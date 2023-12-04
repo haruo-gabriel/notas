@@ -1,4 +1,4 @@
-# Coin Change
+# coin change
 
 Dado um conjunto de moedas $C = \{c_1, c_2, \dots, c_n\}$ e um valor $v$, qual é o menor número de moedas necessárias para formar $v$?
 Seja $f(x)$ o menor número de moedas necessárias para formar $x$. Então,

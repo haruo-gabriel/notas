@@ -1,4 +1,4 @@
-# Longest Increasing Subsequence (LIS)
+# longest increasing subsequence (LIS)
 
 Dado um vetor $A[1..n]$, qual é o tamanho da maior subsequência crescente?
 obs.: subsequência não é necessariamente subvetor, sendo que a subsequência pode considerar elementos não adjacentes.

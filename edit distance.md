@@ -1,4 +1,4 @@
-# edit distance
+# Edit Distance
 
 Dadas duas strings $A$ e $B$, qual é a menor quantidade de operações necessárias para transformar $A$ em $B$?
 As operações são:
