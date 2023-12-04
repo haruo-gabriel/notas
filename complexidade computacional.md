@@ -14,6 +14,8 @@
   - *Enquanto isso, afirmaremos sem provar que, se qualquer problema NP-completo pode ser resolvido em tempo polinomial, então todo problema em NP tem um algoritmo de tempo polinomial.*
 - P vs NP
 
+- 
+
 ## Problemas de decisão vs problemas de busca vs problemas de otimização
 - problema de decisão
   - problema que pede uma resposta binária (sim ou não)
