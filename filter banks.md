@@ -34,3 +34,5 @@
   ![equação da reconstrução perfeita](image-15.png)
 
 ## Bancos de filtros multiestágio
+- Na teoria de wavelets clássica, processamos apenas os sinais de baixa frequência, enquanto os sinais de alta frequência não são processados
+- 
