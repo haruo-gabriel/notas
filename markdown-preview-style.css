@@ -4,3 +4,9 @@
 .markdown-preview.markdown-preview { 
     tab-size: 2; 
 }
+
+/* Adjust the tab size for lists (you can adjust the margin-left as needed) */
+.markdown-preview.markdown-preview ul,
+.markdown-preview.markdown-preview ol {
+    margin-left: 1em; /* Adjust this value as needed */
+}
