@@ -16,3 +16,8 @@
 .markdown-preview.markdown-preview ol ol {
     margin-left: 1em; /* Adjust this value as needed */
 }
+
+/* Set the font size to 30 */
+.markdown-preview.markdown-preview {
+    font-size: 30px;
+}
