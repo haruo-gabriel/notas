@@ -8,16 +8,11 @@
 /* Adjust the tab size for main level lists */
 .markdown-preview.markdown-preview ul,
 .markdown-preview.markdown-preview ol {
-    margin-left: 1em; /* Adjust this value as needed */
+    margin-left: 2em; /* Adjust this value as needed */
 }
 
 /* Adjust the tab size for nested list items */
 .markdown-preview.markdown-preview ul ul,
 .markdown-preview.markdown-preview ol ol {
-    margin-left: 1em; /* Adjust this value as needed */
-}
-
-/* Set the font size to 30 */
-.markdown-preview.markdown-preview {
-    font-size: 30px;
+    margin-left: 2em; /* Adjust this value as needed */
 }
