@@ -32,3 +32,5 @@
   3. combinar os resultados
 - princípio da reconstrução perfeita
   ![equação da reconstrução perfeita](image-15.png)
+
+## Bancos de filtros multiestágio
