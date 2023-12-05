@@ -15,6 +15,7 @@
   - upsampling
     - aumenta a frequência de amostragem pelo dobro, inserindo zeros entre as amostras
     - retorna um sinal de 2 vezes o tamanho original
+    - $l_s$ e $h_s$ são os filtros 
 - causalidade e atrasos
   - um sistema é causal se a saída em qualquer instante de tempo depende apenas de entradas presentes e passadas
   - um sistema é não-causal se a saída em qualquer instante de tempo depende de entradas futuras
