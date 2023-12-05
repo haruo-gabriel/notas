@@ -4,7 +4,7 @@
 ## O banco de filtros de Haar de 1 estágio e 2 canais
 
 - transformada de 1 estágio e 2 canais
-  - filtro de passa-baixa $l$ é o filtro da média
+  - filtro de passa-baixa $l$ é o filtro da média móvel
   - filtro de passa-alta $h$ é o filtro da diferença normalizada
   - downsampling
     - reduz a frequência de amostragem pela metade, eliminando os índices ímpares do sinal
