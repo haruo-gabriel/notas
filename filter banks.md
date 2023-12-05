@@ -11,11 +11,12 @@
     - retorna um sinal de metade do tamanho original
     - a preservação dos índices pares é interpretada como um sinal de 2 vezes a frequência do sinal original
     - é possível reconstruir o sinal original a partir do sinal de frequência dobrada
+    - $l_a$ e $h_a$ são os filtros de análise
 - transformada de 1 estágio inversa
   - upsampling
     - aumenta a frequência de amostragem pelo dobro, inserindo zeros entre as amostras
     - retorna um sinal de 2 vezes o tamanho original
-    - $l_s$ e $h_s$ são os filtros 
+    - $l_s$ e $h_s$ são os filtros de síntese
 - causalidade e atrasos
   - um sistema é causal se a saída em qualquer instante de tempo depende apenas de entradas presentes e passadas
   - um sistema é não-causal se a saída em qualquer instante de tempo depende de entradas futuras
