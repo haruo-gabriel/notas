@@ -1,12 +1,18 @@
 /* styles.css */
 
-/* Set the tab size to 2 spaces (you can adjust this value as needed) */
+/* Set the overall tab size to 4 spaces */
 .markdown-preview.markdown-preview { 
     tab-size: 2; 
 }
 
-/* Adjust the tab size for lists (you can adjust the margin-left as needed) */
+/* Adjust the tab size for main level lists */
 .markdown-preview.markdown-preview ul,
 .markdown-preview.markdown-preview ol {
-    margin-left: 1em; /* Adjust this value as needed */
+    margin-left: 2em; /* Adjust this value as needed */
+}
+
+/* Adjust the tab size for nested list items */
+.markdown-preview.markdown-preview ul ul,
+.markdown-preview.markdown-preview ol ol {
+    margin-left: 2em; /* Adjust this value as needed */
 }
