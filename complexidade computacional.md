@@ -9,7 +9,7 @@
 - classe NP
   - *A classe NP consiste nos problemas que são “verificáveis” em tempo polinomial.*
 - classe coNP
-  - asçdlfkj
+  - placeholder
 - classe NP-completo
   - *Informalmente, um problema está na classe NPC — e nos referiremos a ele como um problema NP-completo — se ele está em NP e é tão “difícil” quanto qualquer problema em NP.*
   - *Enquanto isso, afirmaremos sem provar que, se qualquer problema NP-completo pode ser resolvido em tempo polinomial, então todo problema em NP tem um algoritmo de tempo polinomial.*
