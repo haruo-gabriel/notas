@@ -1,4 +1,4 @@
 # algoritmo guloso
 
-[[activity selection problem]]
-[[códigos de Huffman]]
+- [[activity selection problem]]
+- [[códigos de Huffman]]
