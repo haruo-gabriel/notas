@@ -12,7 +12,7 @@
 - aresta leve
   - uma aresta é **leve** que cruza um corte se seu peso é o mínimo de qualquer aresta que cruza o corte
 
-**Teorema**: Se $A$ está contida em uma MST de $(G,c)$, então qualquer $e$ com $c(e)$ mínimo em qualquer corte disjunto de $A$, então $e$ é segura para $A$.
+**Teorema**: Se $A$ está contida em uma MST de $(G,c)$, e para qualquer $e$ com $c(e)$ mínimo em qualquer corte disjunto de $A$, então $e$ é segura para $A$.
 **Prova**:
 
 ---
