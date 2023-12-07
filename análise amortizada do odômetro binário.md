@@ -8,5 +8,5 @@ No exemplo a seguir,
 |---	|---	|---	|---	|---	|---	|---	|
 
 o custo amortizado é
-$$\hat{c}_i = c_i - \Delta\Phi_i = (1 + \text{n° de 1's seguidos no prefixo}) - (1 - \text{n° de 1's seguidos no prefixo}) = ,$$
+$$\hat{c}_i = c_i - \Delta\Phi_i = (1 + \text{n° de 1's seguidos no prefixo}) - (1 - \text{n° de 1's seguidos no prefixo}) = 2,$$
 sendo $c_i$ o custo real e $\Delta\Phi_i$ a variação do potencial.
