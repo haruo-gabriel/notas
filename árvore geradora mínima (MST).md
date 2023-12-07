@@ -15,5 +15,7 @@
 **Teorema**: Se $A$ está contida em uma MST de $(G,c)$, então qualquer $e$ com $c(e)$ mínimo em qualquer corte disjunto de $A$, então $e$ é segura para $A$.
 **Prova**:
 
-[[algoritmo de Kruskal]]
-[[algoritmo de Prim]]
+---
+
+- [[algoritmo de Kruskal]]
+- [[algoritmo de Prim]]
