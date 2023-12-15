@@ -8,3 +8,5 @@
 
 - DFT e IDTF são operações inversas
 
+
+
