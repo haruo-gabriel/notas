@@ -1,0 +1,3 @@
+# não-preempção
+
+**Não-preempção** ocorre quando um algoritmo de escalonamento não permite a comutação de processos em execução. Em outras palavras, um processo que está em execução não pode ser interrompido pelo escalonador de processos para permitir que outro processo seja executado. Isso significa que o processo em execução continuará a ocupar a CPU até que ele termine sua execução ou seja bloqueado por algum motivo, como uma operação de I/O.
