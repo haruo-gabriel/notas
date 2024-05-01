@@ -1,0 +1,1 @@
+# rotação síncrona da lua
