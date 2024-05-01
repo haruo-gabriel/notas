@@ -1,4 +1,4 @@
-# Códigos de Huffman
+# códigos de Huffman
 
 - Motivação: compressão de dados
 - Codificação e decodificação
