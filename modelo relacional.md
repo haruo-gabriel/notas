@@ -13,4 +13,10 @@
 - Domínio
 - Esquema de relação
 - Relação (ou estado de relação)
-- 
+
+## Restrições
+
+- Restrições implícitas
+- Restrições explícitas
+- Restrições semânticas
+
