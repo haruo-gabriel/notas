@@ -12,5 +12,5 @@
 
 - Domínio
 - Esquema de relação
-- Relaçao (ou estado de relação)
+- Relação (ou estado de relação)
 - 
