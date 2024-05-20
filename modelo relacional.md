@@ -21,5 +21,7 @@
   - Restrições de domínio
   - Restrições de chave
     - [[superchave]]
-  - Restrições de integridade
+  - Restrições de integridade de entidade
+  - Restrições de integridade referencial
+    - chave estrangeira
 - Restrições semânticas
