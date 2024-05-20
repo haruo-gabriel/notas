@@ -10,3 +10,6 @@
 - Cada linha (tupla) representa uma entidade ou relacionamento do mundo real.
 - Cada coluna (atributo) representa uma propriedade da relação.
 
+## Domínio
+
+- Um domínio $D$ é um conjunto de valores atômicos.
