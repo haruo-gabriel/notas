@@ -18,5 +18,8 @@
 
 - Restrições implícitas
 - Restrições explícitas
+  - Restrições de domínio
+  - Restrições de chave
+  - 
 - Restrições semânticas
 
