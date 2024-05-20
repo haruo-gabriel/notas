@@ -17,16 +17,26 @@
 ## Restrições
 
 - Restrições implícitas
+  - Uma relação não pussui tuplas repetidas
+  - As tuplas em uma relação não possuem qualquer ordem em particular
 - Restrições explícitas
   - Restrições de domínio
   - Restrições de chave
     - [[superchave]]
-  - Restrições de integridade de entidade
-  - Restrições de integridade referencial
-    - chave estrangeira
+    - chave candidata
+    - chave primária
+    - chave única
+  - Restrições sobre valores NULL
+  - Restrições de integridade
+    - Restrições de integridade de entidade
+    - Restrições de integridade referencial
+      - chave estrangeira
 - Restrições semânticas
 
 ## Operações
 
 - Recuperações
 - Modificações
+  - Inserção de tupla
+  - Remoção de tupla
+  - Alteração de valores de atributos em uma tupla
