@@ -25,3 +25,8 @@
   - Restrições de integridade referencial
     - chave estrangeira
 - Restrições semânticas
+
+## Operações
+
+- Recuperações
+- Modificações
