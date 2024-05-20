@@ -20,6 +20,6 @@
 - Restrições explícitas
   - Restrições de domínio
   - Restrições de chave
-  - 
+  - superchave
 - Restrições semânticas
 
